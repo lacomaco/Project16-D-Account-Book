@@ -5,5 +5,5 @@ export const login = () => {
 
 export const visitAccountBook = () => {
   login();
-  cy.contains('데모용 가계부 입니다.').click();
+  cy.contains('데모용 가계부').click();
 };
