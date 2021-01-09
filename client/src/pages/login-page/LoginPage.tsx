@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import LargeKakaoLoginButton from '../../components/login-button/kakao-login-button/LargeKakaoLoginButton';
 import SmallKakaoLoginButton from '../../components/login-button/kakao-login-button/SmallKakaoLoginButton';
-import LargeNaverLoginButton from '../../components/login-button/naver-login-button/LargeNaverLoginButton';
-import SmallNaverLoginButton from '../../components/login-button/naver-login-button/SmallNaverLoginButton';
 import { v4 } from 'uuid';
 
 const MainContainer = styled.div`
@@ -82,13 +80,6 @@ const LoginPage: React.FC = () => {
         >
           <LargeKakaoLoginButton />
         </a>
-        <a
-          href={`http://nid.naver.com/oauth2.0/authorize?client_id=${
-            process.env.REACT_APP_NAVER_CLIENT_ID
-          }&response_type=code&redirect_uri=${process.env.REACT_APP_NAVER_CALLBACK_URL}&state=${v4()}`}
-        >
-          <LargeNaverLoginButton />
-        </a>
       </LargeLoginButtonContainer>
       <SmallLoginButtonContainer>
         <a
@@ -102,9 +93,7 @@ const LoginPage: React.FC = () => {
           href={`http://nid.naver.com/oauth2.0/authorize?client_id=${
             process.env.REACT_APP_NAVER_CLIENT_ID
           }&response_type=code&redirect_uri=${process.env.REACT_APP_NAVER_CALLBACK_URL}&state=${v4()}`}
-        >
-          <SmallNaverLoginButton />
-        </a>
+        ></a>
       </SmallLoginButtonContainer>
     </MainContainer>
   );

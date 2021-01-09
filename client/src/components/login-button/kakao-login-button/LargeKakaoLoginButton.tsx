@@ -14,7 +14,7 @@ const StyledDiv = styled.div`
 const LargeKakaoLoginButton: React.FC<LoginButton> = ({ onClick }: LoginButton) => {
   return (
     <StyledDiv onClick={onClick}>
-      <img src={String(largeKakaoLoginButtonImage)} alt="kakao_login_button" />
+      <img src={String(largeKakaoLoginButtonImage)} alt="large_kakao_login_button" />
     </StyledDiv>
   );
 };
