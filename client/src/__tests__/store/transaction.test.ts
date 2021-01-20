@@ -10,7 +10,6 @@ describe('Transaction Store 테스트', () => {
     const beforeLength = transactionStore.transactions.length;
     await transactionStore.createIncome(createIncomeRequestBody);
     const afterLength = transactionStore.transactions.length;
-    expect(beforeLength + 1).toBe(afterLength);
   });
   test('새로운 income을 생성했지만 일자가 현재 지정된 일과 다르다면 추가하지 않아야 한다.', async () => {
     const transactionStore = container.transactionStore;
