@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import SettingsSidebar from '../../components/common/settings-sidebar/SettingsSidebar';
-import Preview from '../../components/common/preview/Preview';
-import InputText from '../../components/common/inputs/input-text/InputText';
+import SettingsSidebar from '@src/components/common/settings-sidebar/SettingsSidebar';
+import Preview from '@src/components/common/preview/Preview';
+import InputText from '@src/components/common/inputs/input-text/InputText';
 import useStore from '@src/hook/use-store/useStore';
 import useGetParam from '@src/hook/use-get-param/useGetParam';
 import { observer } from 'mobx-react';
 import Accountbook from '@src/types/accountbook';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import BlueButton from '../../components/common/buttons/BlueButton';
-import RedButton from '../../components/common/buttons/RedButton';
+import BlueButton from '@src/components/common/buttons/BlueButton';
+import RedButton from '@src/components/common/buttons/RedButton';
 
 const SettingsAccountbookPageWrapper = styled.div`
   font-family: 'Spoqa Han Sans';

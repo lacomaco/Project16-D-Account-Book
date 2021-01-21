@@ -1,24 +1,24 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import Sidebar from '../../components/common/sidebar/Sidebar';
-import HeaderNavigation from '../../components/common/header-navigation/HeaderNavigation';
-import ChangeDateContainer from '../../components/common/change-date-container/ChangeDateContainer';
-import Amount from '../../components/common/amount/Amonut';
-import AllTransactionContainer from '../../components/common/transactions/all-transaction-container/AllTransactionContainer';
-import MenuNavigation from '../../components/common/menu-navigation/MenuNavigation';
+import Sidebar from '@src/components/common/sidebar/Sidebar';
+import HeaderNavigation from '@src/components/common/header-navigation/HeaderNavigation';
+import ChangeDateContainer from '@src/components/common/change-date-container/ChangeDateContainer';
+import Amount from '@src/components/common/amount/Amonut';
+import AllTransactionContainer from '@src/components/common/transactions/all-transaction-container/AllTransactionContainer';
+import MenuNavigation from '@src/components/common/menu-navigation/MenuNavigation';
 import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import Income, { isIncome } from '@src/types/income';
 import Expenditure from '@src/types/expenditure';
 import { ParsedQuery } from 'query-string';
-import FilterOption from '../../components/transaction-page/filter-option/FilterOption';
-import FormModalFilter from '../../components/common/modals/form-modal-filter/FormModalFilter';
-import FormModalCreateTransaction from '../../components/common/modals/form-modal-transaction/FormModalCreateTransaction';
-import FormModalUpdateTransaction from '../../components/common/modals/form-modal-transaction/FormModalUpdateTransaction';
-import HeaderNavigationRightTopWrapper from '../../components/common/header-navigation/HeaderNavigationRightTop';
+import FilterOption from '@src/components/transaction-page/filter-option/FilterOption';
+import FormModalFilter from '@src/components/common/modals/form-modal-filter/FormModalFilter';
+import FormModalCreateTransaction from '@src/components/common/modals/form-modal-transaction/FormModalCreateTransaction';
+import FormModalUpdateTransaction from '@src/components/common/modals/form-modal-transaction/FormModalUpdateTransaction';
+import HeaderNavigationRightTopWrapper from '@src/components/common/header-navigation/HeaderNavigationRightTop';
 import socket, { event } from '../../socket';
 import { sortByRecentDate } from '@src/utils/sortByRecentDate';
-import TopButton from '../../components/top-button/TopButton';
+import TopButton from '@src/components/top-button/TopButton';
 
 const ViewWrapper = styled.div`
   width: 70%;

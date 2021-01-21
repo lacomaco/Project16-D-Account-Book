@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import CategoryNoDependency from '../../components/common/category/CategoryNoDependency';
+import CategoryNoDependency from '@src/components/common/category/CategoryNoDependency';
 
 import LineChartMonth from './LineChartMonth/LineChartMonth';
 import { PieGraphPageWrapper, PieHeaderFilter, IncomeExpenditureSwitch } from './PieGraphPage';
-import InputRadio from '../../components/common/inputs/input-radio/InputRadio';
+import InputRadio from '@src/components/common/inputs/input-radio/InputRadio';
 import { graphChangeChecker } from '@src/types/inputRadio';
 import useStore from '@src/hook/use-store/useStore';
 import useGetParam from '@src/hook/use-get-param/useGetParam';
 import { observer } from 'mobx-react';
-import NotFoundTransaction from '../../components/common/not-found-transaction/NotFoundTransaction';
-import LineChart from '../../components/graph/line-chart/LineChart';
+import NotFoundTransaction from '@src/components/common/not-found-transaction/NotFoundTransaction';
+import LineChart from '@src/components/graph/line-chart/LineChart';
 import { text } from '@src/constants/pieGraphPage';
 import color from '@src/constants/color';
 import { numberWithCommas } from '@src/utils/number';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 
 interface ILineChartPage {
   changePage: (e: React.ChangeEvent<HTMLInputElement>) => void;

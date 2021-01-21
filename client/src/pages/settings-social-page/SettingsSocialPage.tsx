@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import SettingsSidebar from '../../components/common/settings-sidebar/SettingsSidebar';
+import SettingsSidebar from '@src/components/common/settings-sidebar/SettingsSidebar';
 import { SettingsBody } from '../settings-csv-page/SettingsCsvPage';
-import SearchContainer from '../../components/accountbook-social-page/search-bar/SearchContainer';
-import UserItemContainer from '../../components/accountbook-social-page/user-item/UserItemContainer';
+import SearchContainer from '@src/components/accountbook-social-page/search-bar/SearchContainer';
+import UserItemContainer from '@src/components/accountbook-social-page/user-item/UserItemContainer';
 import socialPage from '@src/constants/socialPage';
 import useStore from '@src/hook/use-store/useStore';
 import useGetParam from '@src/hook/use-get-param/useGetParam';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 import { observer } from 'mobx-react';
-import ConfirmModal from '../../components/common/modals/confirm-modal/ConfirmModal';
-import AlertModal from '../../components/common/modals/alert-modal/AlertModal';
+import ConfirmModal from '@src/components/common/modals/confirm-modal/ConfirmModal';
+import AlertModal from '@src/components/common/modals/alert-modal/AlertModal';
 
 const SettingsPageWrapper = styled.div`
   font-family: 'Spoqa Han Sans';

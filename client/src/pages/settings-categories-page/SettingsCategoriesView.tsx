@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import Category from '../../components/common/category/Category';
-import AddCategoryButton from '../../components/common/add-category-button/AddCategoryButton';
+import Category from '@src/components/common/category/Category';
+import AddCategoryButton from '@src/components/common/add-category-button/AddCategoryButton';
 import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import FormModalCategory from '../../components/common/modals/form-modal-category/FormModalCreateCategory';
-import FormModalUpdateCategory from '../../components/common/modals/form-modal-category/FormModalUpdateCategory';
+import FormModalCategory from '@src/components/common/modals/form-modal-category/FormModalCreateCategory';
+import FormModalUpdateCategory from '@src/components/common/modals/form-modal-category/FormModalUpdateCategory';
 import socket, { event } from '../../socket';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 
 const SettingsCategoryViewWrapper = styled.div`
   position: absolute;

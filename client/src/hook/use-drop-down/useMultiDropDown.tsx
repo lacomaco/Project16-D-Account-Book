@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Options } from '../../components/common/inputs/select/Select';
+import { Options } from '@src/components/common/inputs/select/Select';
 import { setImmutable } from '@src/utils/immutable/setImmutable';
 
 export const isSelectAll = (items: Options[], selected: Set<string>): boolean => {

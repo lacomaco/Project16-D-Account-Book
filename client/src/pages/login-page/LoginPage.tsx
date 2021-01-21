@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import LargeKakaoLoginButton from '../../components/login-button/kakao-login-button/LargeKakaoLoginButton';
-import SmallKakaoLoginButton from '../../components/login-button/kakao-login-button/SmallKakaoLoginButton';
+import LargeKakaoLoginButton from '@src/components/login-button/kakao-login-button/LargeKakaoLoginButton';
+import SmallKakaoLoginButton from '@src/components/login-button/kakao-login-button/SmallKakaoLoginButton';
 import { v4 } from 'uuid';
 
 const MainContainer = styled.div`

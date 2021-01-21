@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { CSVLink } from 'react-csv';
 import { observer } from 'mobx-react';
 import styled from 'styled-components';
-import ExportButton from '../../components/export-button/ExportButton';
+import ExportButton from '@src/components/export-button/ExportButton';
 import useStore from '@src/hook/use-store/useStore';
 import Expenditure from '@src/types/expenditure';
 import Income from '@src/types/income';

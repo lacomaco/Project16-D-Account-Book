@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import InputWithNextButton from '../../components/common/inputs/input-with-next-button/InputWithNextButton';
-import SingleInputDropDown from '../../components/common/inputs/single-input-dropdown/SingleInputDropdown';
+import InputWithNextButton from '@src/components/common/inputs/input-with-next-button/InputWithNextButton';
+import SingleInputDropDown from '@src/components/common/inputs/single-input-dropdown/SingleInputDropdown';
 import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import useGetParam from '@src/hook/use-get-param/useGetParam';
-import PieGraph from '../../components/graph/pie/PieGraph';
-import NotFoundTransaction from '../../components/common/not-found-transaction/NotFoundTransaction';
+import PieGraph from '@src/components/graph/pie/PieGraph';
+import NotFoundTransaction from '@src/components/common/not-found-transaction/NotFoundTransaction';
 import { numberWithCommas } from '@src/utils/number';
-import BoxGraph from '../../components/graph/box-graph/BoxGraph';
-import CategoryNoDependency from '../../components/common/category/CategoryNoDependency';
+import BoxGraph from '@src/components/graph/box-graph/BoxGraph';
+import CategoryNoDependency from '@src/components/common/category/CategoryNoDependency';
 import { text } from '@src/constants/pieGraphPage';
 import color from '@src/constants/color';
-import InputRadio from '../../components/common/inputs/input-radio/InputRadio';
+import InputRadio from '@src/components/common/inputs/input-radio/InputRadio';
 import { graphChangeChecker } from '@src/types/inputRadio';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 
 export const PieGraphPageWrapper = styled.div`
   margin: 0 auto;

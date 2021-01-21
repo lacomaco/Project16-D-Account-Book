@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import Account from '../../components/common/account/Account';
-import AddAccountButton from '../../components/common/add-account-button/AddAccountButton';
+import Account from '@src/components/common/account/Account';
+import AddAccountButton from '@src/components/common/add-account-button/AddAccountButton';
 import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import FormModalAccount from '../../components/common/modals/form-modal-account/FormModalCreateAccount';
-import FormModalUpdateAccount from '../../components/common/modals/form-modal-account/FormModalUpdateAccount';
+import FormModalAccount from '@src/components/common/modals/form-modal-account/FormModalCreateAccount';
+import FormModalUpdateAccount from '@src/components/common/modals/form-modal-account/FormModalUpdateAccount';
 import socket, { event } from '../../socket';
-import Spinner from '../../components/common/spinner/Spinner';
+import Spinner from '@src/components/common/spinner/Spinner';
 
 const SettingsAccountViewWrapper = styled.div`
   position: absolute;

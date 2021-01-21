@@ -6,7 +6,7 @@ import {
   getUnit,
   createXAxis,
   gatherByDate,
-} from '../../../components/graph/line-chart/lineChartUtils';
+} from '@src/components/graph/line-chart/lineChartUtils';
 
 describe('Line Chart Util 테스트', () => {
   test('date를 기준으로 트랜잭션을 오름차 정렬한다.', () => {

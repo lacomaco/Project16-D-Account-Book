@@ -1,7 +1,7 @@
 import React from 'react';
 import { match } from 'react-router-dom';
 import styled from 'styled-components';
-import SettingsSidebar from '../../components/common/settings-sidebar/SettingsSidebar';
+import SettingsSidebar from '@src/components/common/settings-sidebar/SettingsSidebar';
 import SettingsAccountsView from './SettingsAccountsView';
 interface Props {
   match: match<{ id: string }>;

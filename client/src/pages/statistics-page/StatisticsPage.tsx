@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import HeaderNavigation from '../../components/common/header-navigation/HeaderNavigation';
-import HeaderNavigationRightTopWrapper from '../../components/common/header-navigation/HeaderNavigationRightTop';
-import Sidebar from '../../components/common/sidebar/Sidebar';
+import HeaderNavigation from '@src/components/common/header-navigation/HeaderNavigation';
+import HeaderNavigationRightTopWrapper from '@src/components/common/header-navigation/HeaderNavigationRightTop';
+import Sidebar from '@src/components/common/sidebar/Sidebar';
 import PieGraphPage from './PieGraphPage';
 import LineChartPage from './LineChartPage';
 import styled from 'styled-components';
