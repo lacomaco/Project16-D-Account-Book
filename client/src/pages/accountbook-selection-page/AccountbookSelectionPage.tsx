@@ -66,6 +66,7 @@ const AccountbookSelectionPage: React.FC = () => {
           <ProfileDropdown />
         </HeaderWrapper>
       </HeaderNavigationRightTopWrapper>
+      {/* 리팩토링 대상 : 실제로 Mount 시키면 성능에 문제가 있을 여지가 큼 visible hidden으로 처리하는게 옳은것 같음 */}
       {createAccountbookFormStore.show && <FormModalCreateAccountbook />}
       {giveAdminStore.show && <GiveAdminModal />}
       {deleteAccountbookByUserStore.show && <AccountbookDeleteByUserModal />}
