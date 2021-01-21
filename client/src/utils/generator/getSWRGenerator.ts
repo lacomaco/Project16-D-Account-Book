@@ -1,4 +1,4 @@
-import transactionService from '../../services/transaction';
+import transactionService from '@src/services/transaction';
 import { Income } from '@src/types/income';
 import { Expenditure } from '@src/types/expenditure';
 import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../date';

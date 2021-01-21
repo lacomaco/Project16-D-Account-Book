@@ -1,6 +1,6 @@
 import { observable, action, makeAutoObservable } from 'mobx';
 import RootStore from '../RootStore';
-import accountbookService from '../../services/accountbook';
+import accountbookService from '@src/services/accountbook';
 
 export default class DeleteAccountbookByUserStore {
   rootStore: RootStore;

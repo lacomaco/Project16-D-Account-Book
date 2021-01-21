@@ -4,7 +4,7 @@ import Expenditure from '@src/types/expenditure';
 import { dateOptions } from '../__dummy-data__/store/filterFormStore';
 import { action, makeObservable, observable, computed, flow } from 'mobx';
 import datePeriod, { datePeriodNumber } from '../constants/datePeriod';
-import transactionService from '../services/transaction';
+import transactionService from '@src/services/transaction';
 import PieChartValue from '@src/types/pieChartValue';
 import { getOnlyIncome, getTopEightCategory, getOnlyExpenditure } from '../utils/filter';
 import BoxChartValue from '@src/types/boxChartValue';

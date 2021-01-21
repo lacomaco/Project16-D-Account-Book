@@ -8,7 +8,7 @@ import GrayButton from '../../buttons/GrayButton';
 import RedButton from '../../buttons/RedButton';
 import UserItemWithRadio from './UserItemWithRadio';
 import { MODAL_WHITE } from '../../../../constants/color';
-import socialService from '../../../../services/social';
+import socialService from '@src/services/social';
 import { UserAccountbook } from '@src/types/social';
 
 const FormModalWrapper = styled.div`

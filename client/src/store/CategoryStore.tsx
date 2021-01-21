@@ -1,7 +1,7 @@
 import { observable, action, makeObservable, computed, flow } from 'mobx';
 import Category, { CategoryRequest } from '@src/types/category';
 import RootStore from './RootStore';
-import CategoryService from '../services/category';
+import CategoryService from '@src/services/category';
 import Options from '@src/types/dropdownOptions';
 import socket, { event } from '../socket';
 

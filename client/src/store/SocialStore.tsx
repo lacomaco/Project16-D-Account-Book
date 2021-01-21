@@ -1,7 +1,7 @@
 import { observable, action, makeObservable, runInAction } from 'mobx';
 import { SearchedUser, UserAccountbook, AddUserBody, DeleteUserBody } from '@src/types/social';
 import RootStore from './RootStore';
-import socialService from '../services/social';
+import socialService from '@src/services/social';
 
 export default class DateStore {
   rootStore: RootStore;

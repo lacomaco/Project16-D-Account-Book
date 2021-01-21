@@ -1,6 +1,6 @@
 import RootStore from './RootStore';
 import Account, { AccountRequest } from '@src/types/account';
-import AccountService from '../services/account';
+import AccountService from '@src/services/account';
 import { observable, action, makeObservable, computed, flow } from 'mobx';
 import Options from '@src/types/dropdownOptions';
 import socket, { event } from '../socket';

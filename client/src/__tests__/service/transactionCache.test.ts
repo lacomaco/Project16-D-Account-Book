@@ -1,4 +1,4 @@
-import transactionService, { createGetTransactionQuery } from '../../services/transaction';
+import transactionService, { createGetTransactionQuery } from '@src/services/transaction';
 import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../../utils/date';
 
 describe('Transaction 테스트', () => {

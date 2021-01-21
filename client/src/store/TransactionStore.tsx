@@ -2,7 +2,7 @@ import { observable, makeObservable, action, flow } from 'mobx';
 import Income, { IncomeRequest, isIncome } from '@src/types/income';
 import Expenditure, { ExpenditureRequest } from '@src/types/expenditure';
 import CsvTransaction from '@src/types/csvTransaction';
-import transactionService from '../services/transaction';
+import transactionService from '@src/services/transaction';
 import RootStore from './RootStore';
 import { filtering } from '../utils/filter';
 import Query from '@src/types/query';

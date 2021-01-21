@@ -1,7 +1,7 @@
 import { observable, action, makeObservable } from 'mobx';
 import RootStore from './RootStore';
 import User, { UserAuthorType } from '@src/types/user';
-import authService from '../services/auth';
+import authService from '@src/services/auth';
 
 export default class UserStore {
   rootStore: RootStore;

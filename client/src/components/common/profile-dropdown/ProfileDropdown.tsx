@@ -4,7 +4,7 @@ import ProfileImage from '../profile-image/ProfileImage';
 import { GRAY, LIGHT_GRAY } from '../../../constants/color';
 import useStore from '../../../hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import authService from '../../../services/auth';
+import authService from '@src/services/auth';
 
 const Menu = styled.div`
   color: black;

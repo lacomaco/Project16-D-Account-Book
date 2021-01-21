@@ -4,7 +4,7 @@ import color from '../../../../constants/color';
 import { InputListWrapper, InputWrapper } from './TransactionInputList';
 import { FormActionType, FormChangeAction } from '@src/types/TransactionForm';
 import { getDateString, findAccountByName, correctionCardName } from '../../../../utils/mms/mms';
-import transactionService from '../../../../services/transaction';
+import transactionService from '@src/services/transaction';
 import useStore from '../../../../hook/use-store/useStore';
 
 const SmallArea = styled.div`
