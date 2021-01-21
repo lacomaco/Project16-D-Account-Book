@@ -1,13 +1,13 @@
 import RootStore from './RootStore';
-import Income from '../types/income';
-import Expenditure from '../types/expenditure';
+import Income from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
 import { dateOptions } from '../__dummy-data__/store/filterFormStore';
 import { action, makeObservable, observable, computed, flow } from 'mobx';
 import datePeriod, { datePeriodNumber } from '../constants/datePeriod';
 import transactionService from '../services/transaction';
-import PieChartValue from '../types/pieChartValue';
+import PieChartValue from '@src/types/pieChartValue';
 import { getOnlyIncome, getTopEightCategory, getOnlyExpenditure } from '../utils/filter';
-import BoxChartValue from '../types/boxChartValue';
+import BoxChartValue from '@src/types/boxChartValue';
 import { CancellablePromise } from 'mobx/dist/api/flow';
 import getSWRGenerator from '../utils/generator/getSWRGenerator';
 export default class PieGraphPageStore {

@@ -1,5 +1,5 @@
 import RootStore from './RootStore';
-import Accountbook, { CreateAccountbookBody } from '../types/accountbook';
+import Accountbook, { CreateAccountbookBody } from '@src/types/accountbook';
 import { observable, action, makeObservable } from 'mobx';
 import accountbookService from '../services/accountbook';
 

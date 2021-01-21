@@ -1,8 +1,8 @@
 import { observable, action, makeAutoObservable, computed } from 'mobx';
 import RootStore from '../RootStore';
-import Income, { isIncome } from '../../types/income';
-import Expenditure from '../../types/expenditure';
-import { ITransactionForm } from '../../types/TransactionForm';
+import Income, { isIncome } from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
+import { ITransactionForm } from '@src/types/TransactionForm';
 
 type IncomeExpenditure = Income | Expenditure;
 

@@ -1,4 +1,4 @@
-import { ITransaction } from '../../../types/lineChartValue';
+import { ITransaction } from '@src/types/lineChartValue';
 
 export const fullTransaction: ITransaction[] = [
   { date: new Date('2020-11-01'), value: 5000 },

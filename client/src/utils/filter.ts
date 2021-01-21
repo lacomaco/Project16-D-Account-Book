@@ -1,8 +1,8 @@
-import Income, { isIncome } from '../types/income';
-import Expenditure from '../types/expenditure';
-import Query from '../types/query';
-import BoxChartValue from '../types/boxChartValue';
-import { ICategoryValue } from '../types/category';
+import Income, { isIncome } from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
+import Query from '@src/types/query';
+import BoxChartValue from '@src/types/boxChartValue';
+import { ICategoryValue } from '@src/types/category';
 
 export const filtering = (
   transactions: Array<Income | Expenditure>,

@@ -1,4 +1,4 @@
-import Category, { CategoryRequest } from '../types/category';
+import Category, { CategoryRequest } from '@src/types/category';
 import instance from '../api/axios';
 import querystring from 'querystring';
 

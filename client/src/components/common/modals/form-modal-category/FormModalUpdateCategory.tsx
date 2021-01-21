@@ -9,7 +9,7 @@ import { observer } from 'mobx-react';
 import CategoryPreview from '../../category-preview/CategoryPreview';
 import InputText from '../../inputs/input-text/InputText';
 import formModal from '../../../../constants/formModal';
-import { Category } from '../../../../types/category';
+import { Category } from '@src/types/category';
 import { convertToCategory } from '../formUtils';
 import useGetParam from '../../../../hook/use-get-param/useGetParam';
 import CheckSuccess from '../../check/check-success/CheckSuccess';

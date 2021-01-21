@@ -1,5 +1,5 @@
 import React from 'react';
-import ITransaction from '../../../types/lineChartValue';
+import ITransaction from '@src/types/lineChartValue';
 import { valueFitUnit, ValueUnit } from './lineChartUtils';
 import LineChartDot from './LineChartDot';
 interface ILineChartDrawDot {

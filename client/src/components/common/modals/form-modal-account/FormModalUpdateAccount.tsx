@@ -11,7 +11,7 @@ import InputText from '../../inputs/input-text/InputText';
 import formModal from '../../../../constants/formModal';
 import useGetParam from '../../../../hook/use-get-param/useGetParam';
 import { convertToAccount } from '../formUtils';
-import { Account } from '../../../../types/account';
+import { Account } from '@src/types/account';
 import CheckSuccess from '../../check/check-success/CheckSuccess';
 import CheckFail from '../../check/check-fail/CheckFail';
 import CheckSuccessText from '../../check/check-text/CheckSuccessText';

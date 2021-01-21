@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import styled from 'styled-components';
 import { getTextColor } from '../../../utils/color';
 import useStore from '../../../hook/use-store/useStore';
-import { SingleCategory } from '../../../types/category';
+import { SingleCategory } from '@src/types/category';
 import { convertToCategoryObj } from '../modals/formUtils';
 
 export const CategoryWrapper = styled.div<{

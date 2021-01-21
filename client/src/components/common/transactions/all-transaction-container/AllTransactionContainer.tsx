@@ -1,7 +1,7 @@
 import React from 'react';
 import DayTransactionContainer from '../day-transaction-container/DayTransactionContainer';
-import Income, { isIncome } from '../../../../types/income';
-import Expenditure from '../../../../types/expenditure';
+import Income, { isIncome } from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
 import NotFoundTransaction from '../../not-found-transaction/NotFoundTransaction';
 import Spinner from '../../spinner/Spinner';
 import useStore from '../../../../hook/use-store/useStore';

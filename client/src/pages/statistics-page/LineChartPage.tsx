@@ -5,7 +5,7 @@ import CategoryNoDependency from '../../components/common/category/CategoryNoDep
 import LineChartMonth from './LineChartMonth/LineChartMonth';
 import { PieGraphPageWrapper, PieHeaderFilter, IncomeExpenditureSwitch } from './PieGraphPage';
 import InputRadio from '../../components/common/inputs/input-radio/InputRadio';
-import { graphChangeChecker } from '../../types/inputRadio';
+import { graphChangeChecker } from '@src/types/inputRadio';
 import useStore from '../../hook/use-store/useStore';
 import useGetParam from '../../hook/use-get-param/useGetParam';
 import { observer } from 'mobx-react';

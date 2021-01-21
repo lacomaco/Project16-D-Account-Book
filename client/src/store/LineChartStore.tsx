@@ -1,9 +1,9 @@
 import { makeObservable, observable, flow, computed, action } from 'mobx';
-import Expenditure from '../types/expenditure';
-import Income from '../types/income';
+import Expenditure from '@src/types/expenditure';
+import Income from '@src/types/income';
 import RootStore from './RootStore';
 import { getOnlyIncome, getOnlyExpenditure } from '../utils/filter';
-import ITransaction from '../types/lineChartValue';
+import ITransaction from '@src/types/lineChartValue';
 import { CancellablePromise } from 'mobx/dist/api/flow';
 import getSWRGenerator from '../utils/generator/getSWRGenerator';
 import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../utils/date';

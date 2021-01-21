@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ModalCommonButton } from '../../../types/buttonTypes';
+import { ModalCommonButton } from '@src/types/buttonTypes';
 import { MODAL_RED, WHITE, DISABLED_GRAY } from '../../../constants/color';
 
 const Wrapper = styled.div<{ disabled?: string }>`

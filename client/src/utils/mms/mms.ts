@@ -1,4 +1,4 @@
-import Account from '../../types/account';
+import Account from '@src/types/account';
 
 export const getDateString = (date: string, time: string): string => {
   const [month, day] = getMonthDay(date);

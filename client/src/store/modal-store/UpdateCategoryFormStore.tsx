@@ -1,6 +1,6 @@
 import { observable, action, makeAutoObservable } from 'mobx';
 import RootStore from '../RootStore';
-import Category from '../../types/category';
+import Category from '@src/types/category';
 
 export default class UpdateCategoryFormStore {
   rootStore: RootStore;

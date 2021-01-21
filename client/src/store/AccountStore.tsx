@@ -1,8 +1,8 @@
 import RootStore from './RootStore';
-import Account, { AccountRequest } from '../types/account';
+import Account, { AccountRequest } from '@src/types/account';
 import AccountService from '../services/account';
 import { observable, action, makeObservable, computed, flow } from 'mobx';
-import Options from '../types/dropdownOptions';
+import Options from '@src/types/dropdownOptions';
 import socket, { event } from '../socket';
 
 export default class AccountStore {

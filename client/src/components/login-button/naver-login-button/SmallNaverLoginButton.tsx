@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import smallNaverLoginButtonImage from '../../../assets/images/naver-login-small.png';
-import LoginButton from '../../../types/loginButton';
+import LoginButton from '@src/types/loginButton';
 
 const StyledDiv = styled.div`
   cursor: pointer;

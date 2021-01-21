@@ -1,4 +1,4 @@
-import { ITransaction } from '../../../types/lineChartValue';
+import { ITransaction } from '@src/types/lineChartValue';
 
 export enum ValueUnit {
   TUCK = '(천억)',

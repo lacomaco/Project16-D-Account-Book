@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
-import Income, { isIncome } from '../../../../types/income';
-import Expenditure from '../../../../types/expenditure';
+import Income, { isIncome } from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
 import { numberWithCommas } from '../../../../utils/number';
 import { RED, BLUE, GRAY } from '../../../../constants/color';
 import TransactionItem from '../transaction-item/TransactionItem';

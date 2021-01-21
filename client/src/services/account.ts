@@ -1,4 +1,4 @@
-import Account, { AccountRequest } from '../types/account';
+import Account, { AccountRequest } from '@src/types/account';
 import instance from '../api/axios';
 import querystring from 'querystring';
 

@@ -1,8 +1,8 @@
-import { IncomeRequest } from '../../../types/income';
-import { ExpenditureRequest } from '../../../types/expenditure';
-import { ITransactionForm } from '../../../types/TransactionForm';
-import { AccountRequest, SingleAccount } from '../../../types/account';
-import { CategoryRequest, SingleCategory } from '../../../types/category';
+import { IncomeRequest } from '@src/types/income';
+import { ExpenditureRequest } from '@src/types/expenditure';
+import { ITransactionForm } from '@src/types/TransactionForm';
+import { AccountRequest, SingleAccount } from '@src/types/account';
+import { CategoryRequest, SingleCategory } from '@src/types/category';
 
 export const convertToIncome = (incomeInput: ITransactionForm, accountbookId: number): IncomeRequest => {
   const { price, categories, accounts, content, date, memo } = incomeInput;

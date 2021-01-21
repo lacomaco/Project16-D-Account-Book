@@ -1,6 +1,6 @@
 import { observable, action, makeAutoObservable, computed } from 'mobx';
 import RootStore from '../RootStore';
-import Account from '../../types/account';
+import Account from '@src/types/account';
 
 export default class UpdateAccountFormStore {
   rootStore: RootStore;

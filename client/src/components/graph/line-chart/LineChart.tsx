@@ -4,7 +4,7 @@ import LineChartBackground from './LineChartBackground';
 import LineChartText from './LineChartText';
 import XAxisDraw from './XAxisDraw';
 import LineChartDrawDot from './LineChartDrawDot';
-import { ITransaction } from '../../../types/lineChartValue';
+import { ITransaction } from '@src/types/lineChartValue';
 import {
   sortTransactionByValue,
   getUnit,

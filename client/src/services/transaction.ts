@@ -1,9 +1,9 @@
 import instance from '../api/axios';
 import { getFormattedDate } from '../utils/date';
-import Income, { IncomeRequest } from '../types/income';
-import Expenditure, { ExpenditureRequest } from '../types/expenditure';
+import Income, { IncomeRequest } from '@src/types/income';
+import Expenditure, { ExpenditureRequest } from '@src/types/expenditure';
 import querystring from 'querystring';
-import { MMSType } from '../types/TransactionForm';
+import { MMSType } from '@src/types/TransactionForm';
 
 const transactionAPIAddress = {
   getTransactions: '/api/transactions',

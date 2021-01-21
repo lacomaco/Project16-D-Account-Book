@@ -1,5 +1,5 @@
 import { observable, action, makeObservable, runInAction } from 'mobx';
-import { SearchedUser, UserAccountbook, AddUserBody, DeleteUserBody } from '../types/social';
+import { SearchedUser, UserAccountbook, AddUserBody, DeleteUserBody } from '@src/types/social';
 import RootStore from './RootStore';
 import socialService from '../services/social';
 

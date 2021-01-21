@@ -1,5 +1,5 @@
 import dummyOptions from '../inputs/dummyOptions';
-import { ITransactionForm, ITransactionFormChange } from '../../../types/TransactionForm';
+import { ITransactionForm, ITransactionFormChange } from '@src/types/TransactionForm';
 export const inputs = {
   classify: true,
   price: 1000,

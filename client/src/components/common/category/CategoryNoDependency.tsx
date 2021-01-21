@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SingleCategory } from '../../../types/category';
+import { SingleCategory } from '@src/types/category';
 import { CategoryWrapper } from './Category';
 import { getTextColor } from '../../../utils/color';
 

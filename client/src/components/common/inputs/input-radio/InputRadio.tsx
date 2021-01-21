@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { IInputRadio } from '../../../../types/inputRadio';
+import { IInputRadio } from '@src/types/inputRadio';
 
 const InputRadioWrapper = styled.div`
   display: inline-flex;

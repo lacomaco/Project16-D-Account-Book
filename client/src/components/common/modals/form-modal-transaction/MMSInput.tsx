@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import color from '../../../../constants/color';
 import { InputListWrapper, InputWrapper } from './TransactionInputList';
-import { FormActionType, FormChangeAction } from '../../../../types/TransactionForm';
+import { FormActionType, FormChangeAction } from '@src/types/TransactionForm';
 import { getDateString, findAccountByName, correctionCardName } from '../../../../utils/mms/mms';
 import transactionService from '../../../../services/transaction';
 import useStore from '../../../../hook/use-store/useStore';

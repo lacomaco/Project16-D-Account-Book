@@ -13,7 +13,7 @@ import CategoryNoDependency from '../../components/common/category/CategoryNoDep
 import { text } from '../../constants/pieGraphPage';
 import color from '../../constants/color';
 import InputRadio from '../../components/common/inputs/input-radio/InputRadio';
-import { graphChangeChecker } from '../../types/inputRadio';
+import { graphChangeChecker } from '@src/types/inputRadio';
 import Spinner from '../../components/common/spinner/Spinner';
 
 export const PieGraphPageWrapper = styled.div`

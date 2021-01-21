@@ -1,4 +1,4 @@
-import { SearchedUser, UserAccountbook, AddUserBody, DeleteUserBody } from '../types/social';
+import { SearchedUser, UserAccountbook, AddUserBody, DeleteUserBody } from '@src/types/social';
 import instance from '../api/axios';
 
 const socialAPIAddress = {

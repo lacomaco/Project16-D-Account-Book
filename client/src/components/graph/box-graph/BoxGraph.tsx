@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxChartValue from '../../../types/boxChartValue';
+import BoxChartValue from '@src/types/boxChartValue';
 import styled, { keyframes } from 'styled-components';
 import { numberWithCommas } from '../../../utils/number';
 const BoxGraphWrapper = styled.div`

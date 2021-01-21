@@ -1,6 +1,6 @@
 import transactionService from '../../services/transaction';
-import { Income } from '../../types/income';
-import { Expenditure } from '../../types/expenditure';
+import { Income } from '@src/types/income';
+import { Expenditure } from '@src/types/expenditure';
 import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../date';
 
 const getSWRGenerator = (

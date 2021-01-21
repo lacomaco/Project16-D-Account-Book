@@ -1,11 +1,11 @@
 import { observable, makeObservable, action, flow } from 'mobx';
-import Income, { IncomeRequest, isIncome } from '../types/income';
-import Expenditure, { ExpenditureRequest } from '../types/expenditure';
-import CsvTransaction from '../types/csvTransaction';
+import Income, { IncomeRequest, isIncome } from '@src/types/income';
+import Expenditure, { ExpenditureRequest } from '@src/types/expenditure';
+import CsvTransaction from '@src/types/csvTransaction';
 import transactionService from '../services/transaction';
 import RootStore from './RootStore';
 import { filtering } from '../utils/filter';
-import Query from '../types/query';
+import Query from '@src/types/query';
 import { CancellablePromise } from 'mobx/dist/api/flow';
 import socket, { event } from '../socket';
 import getSWRGenerator from '../utils/generator/getSWRGenerator';

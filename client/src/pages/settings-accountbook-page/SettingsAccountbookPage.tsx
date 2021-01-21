@@ -6,7 +6,7 @@ import InputText from '../../components/common/inputs/input-text/InputText';
 import useStore from '../../hook/use-store/useStore';
 import useGetParam from '../../hook/use-get-param/useGetParam';
 import { observer } from 'mobx-react';
-import Accountbook from '../../types/accountbook';
+import Accountbook from '@src/types/accountbook';
 import Spinner from '../../components/common/spinner/Spinner';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

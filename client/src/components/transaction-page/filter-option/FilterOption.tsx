@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import CancelButton from './CancelButton';
-import Query from '../../../types/query';
+import Query from '@src/types/query';
 import { getFormattedDate } from '../../../utils/date';
 import { useHistory } from 'react-router-dom';
 import useStore from '../../../hook/use-store/useStore';

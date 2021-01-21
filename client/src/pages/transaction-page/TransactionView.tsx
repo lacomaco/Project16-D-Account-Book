@@ -8,8 +8,8 @@ import AllTransactionContainer from '../../components/common/transactions/all-tr
 import MenuNavigation from '../../components/common/menu-navigation/MenuNavigation';
 import useStore from '../../hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import Income, { isIncome } from '../../types/income';
-import Expenditure from '../../types/expenditure';
+import Income, { isIncome } from '@src/types/income';
+import Expenditure from '@src/types/expenditure';
 import { ParsedQuery } from 'query-string';
 import FilterOption from '../../components/transaction-page/filter-option/FilterOption';
 import FormModalFilter from '../../components/common/modals/form-modal-filter/FormModalFilter';

@@ -1,4 +1,4 @@
-import CsvTransaction from '../types/csvTransaction';
+import CsvTransaction from '@src/types/csvTransaction';
 
 export const sortByDate = (data: CsvTransaction[], key: string): CsvTransaction[] => {
   data.sort((a, b) => {

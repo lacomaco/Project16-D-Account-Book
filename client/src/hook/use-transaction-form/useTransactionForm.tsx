@@ -1,10 +1,5 @@
 import React, { useReducer } from 'react';
-import {
-  ITransactionForm,
-  ITransactionFormChange,
-  FormActionType,
-  FormChangeAction,
-} from '../../types/TransactionForm';
+import { ITransactionForm, ITransactionFormChange, FormActionType, FormChangeAction } from '@src/types/TransactionForm';
 
 export function formReducer(state: ITransactionForm, action: FormChangeAction): ITransactionForm {
   switch (action.type) {

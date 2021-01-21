@@ -5,7 +5,7 @@ import AccountbookElimination from '../accountbook-elimination/AccountbookElimin
 import { useHistory } from 'react-router-dom';
 import { getTextColor } from '../../../utils/color';
 import useStore from '../../../hook/use-store/useStore';
-import { Accountbook } from '../../../types/accountbook';
+import { Accountbook } from '@src/types/accountbook';
 
 const AccountbookWrapper = styled.div<{
   bgColor: string;

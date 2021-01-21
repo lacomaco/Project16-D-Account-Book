@@ -1,5 +1,5 @@
 import instance from '../api/axios';
-import Accountbook, { CreateAccountbookBody } from '../types/accountbook';
+import Accountbook, { CreateAccountbookBody } from '@src/types/accountbook';
 import renameKey from '../utils/renameObjectKey';
 
 const accountbookAPIAddress = {

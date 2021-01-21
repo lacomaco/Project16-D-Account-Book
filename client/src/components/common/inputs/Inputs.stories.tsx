@@ -9,7 +9,7 @@ import MultiInputDropdownWithCheckBox from './multi-input-dropdown/MultiInputDro
 import ModalClassify from './modal-classify/ModalClassify';
 import InputDateTime from './input-datetime/InputDateTime';
 import InputRadio from './input-radio/InputRadio';
-import { startDateChecker } from '../../../types/inputRadio';
+import { startDateChecker } from '@src/types/inputRadio';
 
 const SmallDiv = styled.div`
   width: 300px;
