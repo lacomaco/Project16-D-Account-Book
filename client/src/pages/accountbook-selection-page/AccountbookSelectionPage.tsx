@@ -60,6 +60,7 @@ const AccountbookSelectionPage: React.FC = () => {
     <>
       <HeaderNavigationRightTopWrapper>
         <HeaderWrapper>
+          {/* 리팩토링 대상 : naver , kakao, google, facebook 여러개가 생기면 어떻게 대처할것인가? */}
           {userStore.provider === 'naver' ? <NaverLogo /> : <KakaoLogo />}
           <EmailWrapper>{userStore.email}</EmailWrapper>
           <ProfileDropdown />
