@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { GRAY } from '../../../../constants/color';
+import { GRAY } from '@src/constants/color';
 
 const Background = styled.div`
   width: 100%;

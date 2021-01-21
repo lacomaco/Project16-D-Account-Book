@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LIGHT_GREEN } from '../../../../constants/color';
+import { LIGHT_GREEN } from '@src/constants/color';
 
 const CheckSuccessTextWrapper = styled.p`
   color: ${LIGHT_GREEN};

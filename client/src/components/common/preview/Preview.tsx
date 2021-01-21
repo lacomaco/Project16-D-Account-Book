@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ColorPicker from '../color-picker/ColorPicker';
-import { getTextColor } from '../../../utils/color';
+import { getTextColor } from '@src/utils/color';
 interface PreviewProps {
   color: string;
   title?: string;

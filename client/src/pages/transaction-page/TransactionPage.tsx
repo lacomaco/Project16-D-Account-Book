@@ -4,7 +4,7 @@ import { Location } from 'history';
 import TransactionView from './TransactionView';
 import styled from 'styled-components';
 import queryString from 'query-string';
-import useStore from '../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 
 interface Props {

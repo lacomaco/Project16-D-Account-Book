@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProfileImage from '../profile-image/ProfileImage';
-import { GRAY, LIGHT_GRAY } from '../../../constants/color';
-import useStore from '../../../hook/use-store/useStore';
+import { GRAY, LIGHT_GRAY } from '@src/constants/color';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import authService from '@src/services/auth';
 

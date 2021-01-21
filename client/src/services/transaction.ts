@@ -1,5 +1,5 @@
 import instance from '../api/axios';
-import { getFormattedDate } from '../utils/date';
+import { getFormattedDate } from '@src/utils/date';
 import Income, { IncomeRequest } from '@src/types/income';
 import Expenditure, { ExpenditureRequest } from '@src/types/expenditure';
 import querystring from 'querystring';

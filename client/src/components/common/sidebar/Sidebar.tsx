@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import HomeButton from '../home-button/HomeButton';
 import HamburgerButton from '../hamburger-button/HamburgerButton';
 import SmallAccountbookItem from '../small-accountbook-item/SmallAccountbookItem';
-import { GRAY } from '../../../constants/color';
+import { GRAY } from '@src/constants/color';
 import { useHistory } from 'react-router-dom';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { Link } from 'react-router-dom';
 
 interface SidebarWrapperProps {

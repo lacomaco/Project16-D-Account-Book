@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ModalBackButton from '../../back-button/ModalBackButton';
 import SMSIcon from './SMSIcon';
-import { DEEP_GRAY } from '../../../../constants/color';
+import { DEEP_GRAY } from '@src/constants/color';
 
 interface IFormModalHeaderProps {
   closeModal?: () => void;

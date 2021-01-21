@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import useClickMe from '../../../../hook/use-click-me/useClickMe';
+import useClickMe from '@src/hook/use-click-me/useClickMe';
 import styled from 'styled-components';
 
 interface ModalBackgroundProps {

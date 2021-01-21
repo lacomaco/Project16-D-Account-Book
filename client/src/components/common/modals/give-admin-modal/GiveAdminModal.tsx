@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import ModalBackground from '../modal-background/ModalBackground';
-import color from '../../../../constants/color';
-import useStore from '../../../../hook/use-store/useStore';
+import color from '@src/constants/color';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import GrayButton from '../../buttons/GrayButton';
 import RedButton from '../../buttons/RedButton';
 import UserItemWithRadio from './UserItemWithRadio';
-import { MODAL_WHITE } from '../../../../constants/color';
+import { MODAL_WHITE } from '@src/constants/color';
 import socialService from '@src/services/social';
 import { UserAccountbook } from '@src/types/social';
 

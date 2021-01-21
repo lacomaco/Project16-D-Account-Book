@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ModalCommonButton } from '@src/types/buttonTypes';
-import { MODAL_GRAY } from '../../../constants/color';
+import { MODAL_GRAY } from '@src/constants/color';
 
 const Wrapper = styled.div`
   background-color: ${MODAL_GRAY};

@@ -1,4 +1,4 @@
-import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../../utils/date';
+import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '@src/utils/date';
 
 describe('getXDateOfMonth 테스트', () => {
   test('현재 객체의 이전달의 첫번째 요일을 가진 Date객체가 반환 되는가', () => {

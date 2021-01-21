@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import BlueButton from '../../buttons/BlueButton';
 import ModalBackground from '../modal-background/ModalBackground';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import { ModalContentWrapper } from '../confirm-modal/ConfirmModal';
 

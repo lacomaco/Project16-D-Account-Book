@@ -1,4 +1,4 @@
-import RootStore, { RootContext } from '../../store/RootStore';
+import RootStore, { RootContext } from '@src/store/RootStore';
 import { useContext } from 'react';
 
 interface Store {

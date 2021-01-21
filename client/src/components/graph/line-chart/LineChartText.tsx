@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { DEEP_GRAY } from '../../../constants/color';
+import { DEEP_GRAY } from '@src/constants/color';
 
 interface IProps {
   x: number;

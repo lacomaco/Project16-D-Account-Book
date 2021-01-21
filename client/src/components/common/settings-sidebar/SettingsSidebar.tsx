@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { GRAY } from '../../../constants/color';
+import { GRAY } from '@src/constants/color';
 import SettingsSidebarHeader from './settings-sidebar-header/SettingsSidebarHeader';
 import SettingsSidebarBody from './settings-sidebar-body/SettingsSidebarBody';
 import { useHistory } from 'react-router-dom';

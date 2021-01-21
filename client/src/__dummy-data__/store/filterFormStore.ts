@@ -1,4 +1,4 @@
-import datePeriod from '../../constants/datePeriod';
+import datePeriod from '@src/constants/datePeriod';
 
 export const dateOptions = [
   {

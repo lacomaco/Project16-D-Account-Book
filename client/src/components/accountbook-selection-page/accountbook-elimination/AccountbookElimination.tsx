@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { getTextColor } from '../../../utils/color';
-import { RED } from '../../../constants/color';
+import { getTextColor } from '@src/utils/color';
+import { RED } from '@src/constants/color';
 
 const Wrapper = styled.div<{ itemColor: string; bgColor: string }>`
   width: 1rem;

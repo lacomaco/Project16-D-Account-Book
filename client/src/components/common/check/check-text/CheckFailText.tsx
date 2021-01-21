@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FAIL_RED } from '../../../../constants/color';
+import { FAIL_RED } from '@src/constants/color';
 
 const CheckFailTextWrapper = styled.p`
   color: ${FAIL_RED};

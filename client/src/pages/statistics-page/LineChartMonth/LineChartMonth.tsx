@@ -2,8 +2,8 @@ import { observer } from 'mobx-react';
 import React from 'react';
 import styled from 'styled-components';
 import ChangeDateContainerView from '../../../components/common/change-date-container/ChangeDateContainerView';
-import useGetParam from '../../../hook/use-get-param/useGetParam';
-import useStore from '../../../hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
+import useStore from '@src/hook/use-store/useStore';
 
 const DateContainerWrapper = styled.div`
   width: 50%;

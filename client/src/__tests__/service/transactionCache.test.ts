@@ -1,5 +1,5 @@
 import transactionService, { createGetTransactionQuery } from '@src/services/transaction';
-import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '../../utils/date';
+import { getFirstDateOfNextMonth, getFirstDateOfPreviousMonth } from '@src/utils/date';
 
 describe('Transaction 테스트', () => {
   let accountbookId;

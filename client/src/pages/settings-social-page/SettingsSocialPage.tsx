@@ -4,9 +4,9 @@ import SettingsSidebar from '../../components/common/settings-sidebar/SettingsSi
 import { SettingsBody } from '../settings-csv-page/SettingsCsvPage';
 import SearchContainer from '../../components/accountbook-social-page/search-bar/SearchContainer';
 import UserItemContainer from '../../components/accountbook-social-page/user-item/UserItemContainer';
-import socialPage from '../../constants/socialPage';
-import useStore from '../../hook/use-store/useStore';
-import useGetParam from '../../hook/use-get-param/useGetParam';
+import socialPage from '@src/constants/socialPage';
+import useStore from '@src/hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 import Spinner from '../../components/common/spinner/Spinner';
 import { observer } from 'mobx-react';
 import ConfirmModal from '../../components/common/modals/confirm-modal/ConfirmModal';

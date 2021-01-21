@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
-import { getTextColor } from '../../../utils/color';
-import useStore from '../../../hook/use-store/useStore';
+import { getTextColor } from '@src/utils/color';
+import useStore from '@src/hook/use-store/useStore';
 import { convertToAccountObj } from '../modals/formUtils';
 import { SingleAccount } from '@src/types/account';
 

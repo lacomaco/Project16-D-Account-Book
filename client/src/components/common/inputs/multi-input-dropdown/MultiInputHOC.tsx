@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Options } from '../select/Select';
 import InputDropDown from '../input-drop-down/InputDropDown';
-import useMultiDropDown from '../../../../hook/use-drop-down/useMultiDropDown';
+import useMultiDropDown from '@src/hook/use-drop-down/useMultiDropDown';
 
 interface Props {
   placeholder: string;

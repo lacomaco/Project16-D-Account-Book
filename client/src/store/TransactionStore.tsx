@@ -4,12 +4,12 @@ import Expenditure, { ExpenditureRequest } from '@src/types/expenditure';
 import CsvTransaction from '@src/types/csvTransaction';
 import transactionService from '@src/services/transaction';
 import RootStore from './RootStore';
-import { filtering } from '../utils/filter';
+import { filtering } from '@src/utils/filter';
 import Query from '@src/types/query';
 import { CancellablePromise } from 'mobx/dist/api/flow';
 import socket, { event } from '../socket';
-import getSWRGenerator from '../utils/generator/getSWRGenerator';
-import { sortByRecentDate } from '../utils/sortByRecentDate';
+import getSWRGenerator from '@src/utils/generator/getSWRGenerator';
+import { sortByRecentDate } from '@src/utils/sortByRecentDate';
 export default class TransactionStore {
   @observable
   transactions: Array<Income | Expenditure> = [];

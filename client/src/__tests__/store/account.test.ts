@@ -1,5 +1,5 @@
-import AccountStore from '../../store/AccountStore';
-import RootStore from '../../store/RootStore';
+import AccountStore from '@src/store/AccountStore';
+import RootStore from '@src/store/RootStore';
 import dummyAccounts from '../../__dummy-data__/api/account/getAccounts';
 describe('계좌(결제수단) 스토어 테스트', () => {
   let container: AccountStore;

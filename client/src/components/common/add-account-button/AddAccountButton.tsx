@@ -1,8 +1,8 @@
 import React from 'react';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import styled from 'styled-components';
 import PlusInCircle from '../plus-in-circle/PlusInCircle';
-import { GRAY } from '../../../constants/color';
+import { GRAY } from '@src/constants/color';
 
 const AccountWrapper = styled.div`
   width: 17vw;

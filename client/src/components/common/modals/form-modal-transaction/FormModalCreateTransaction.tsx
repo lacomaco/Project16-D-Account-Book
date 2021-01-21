@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import TransactionInputList from './TransactionInputList';
-import UseTransactionForm from '../../../../hook/use-transaction-form/useTransactionForm';
+import UseTransactionForm from '@src/hook/use-transaction-form/useTransactionForm';
 import FormModalWrapper from '../form-modal-template/FormModalWrapper';
 import ModalBackground from '../modal-background/ModalBackground';
 import FormModalHeader from '../form-modal-header/FormModalHeader';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { convertToIncome, convertToExpenditure } from '../formUtils';
 import { observer } from 'mobx-react';
-import useGetParam from '../../../../hook/use-get-param/useGetParam';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 import MMSInput from './MMSInput';
 
 const FormModalTransaction: React.FC = () => {

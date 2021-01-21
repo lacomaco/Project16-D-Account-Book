@@ -1,5 +1,5 @@
 import React from 'react';
-import { MODAL_WHITE } from '../../../../constants/color';
+import { MODAL_WHITE } from '@src/constants/color';
 import styled from 'styled-components';
 
 interface IFormModal {

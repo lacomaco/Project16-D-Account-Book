@@ -1,8 +1,8 @@
 import { observable, action, makeObservable, computed } from 'mobx';
 import RootStore from '../RootStore';
 import { dateOptions } from '../../__dummy-data__/store/filterFormStore';
-import datePeriod from '../../constants/datePeriod';
-import { getFormattedDate, getDatePeriod } from '../../utils/date';
+import datePeriod from '@src/constants/datePeriod';
+import { getFormattedDate, getDatePeriod } from '@src/utils/date';
 import Options from '@src/types/dropdownOptions';
 import { ParsedQuery } from 'query-string';
 

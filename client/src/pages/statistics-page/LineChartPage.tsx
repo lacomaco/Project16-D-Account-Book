@@ -6,14 +6,14 @@ import LineChartMonth from './LineChartMonth/LineChartMonth';
 import { PieGraphPageWrapper, PieHeaderFilter, IncomeExpenditureSwitch } from './PieGraphPage';
 import InputRadio from '../../components/common/inputs/input-radio/InputRadio';
 import { graphChangeChecker } from '@src/types/inputRadio';
-import useStore from '../../hook/use-store/useStore';
-import useGetParam from '../../hook/use-get-param/useGetParam';
+import useStore from '@src/hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 import { observer } from 'mobx-react';
 import NotFoundTransaction from '../../components/common/not-found-transaction/NotFoundTransaction';
 import LineChart from '../../components/graph/line-chart/LineChart';
-import { text } from '../../constants/pieGraphPage';
-import color from '../../constants/color';
-import { numberWithCommas } from '../../utils/number';
+import { text } from '@src/constants/pieGraphPage';
+import color from '@src/constants/color';
+import { numberWithCommas } from '@src/utils/number';
 import Spinner from '../../components/common/spinner/Spinner';
 
 interface ILineChartPage {

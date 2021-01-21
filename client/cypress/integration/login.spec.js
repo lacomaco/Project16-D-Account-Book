@@ -1,4 +1,4 @@
-import { login } from '../utils';
+import { login } from '@src/utils';
 
 describe('login Test', () => {
   beforeEach(() => {

@@ -3,7 +3,7 @@ import FormFilter from './FormFilter';
 import ModalBackground from '../modal-background/ModalBackground';
 import FormModalWrapper from '../form-modal-template/FormModalWrapper';
 import FormModalHeader from '../form-modal-header/FormModalHeader';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import { useHistory } from 'react-router-dom';
 

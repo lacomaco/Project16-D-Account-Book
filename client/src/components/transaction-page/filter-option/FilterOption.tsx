@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import CancelButton from './CancelButton';
 import Query from '@src/types/query';
-import { getFormattedDate } from '../../../utils/date';
+import { getFormattedDate } from '@src/utils/date';
 import { useHistory } from 'react-router-dom';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 const Wrapper = styled.div`
   display: flex;

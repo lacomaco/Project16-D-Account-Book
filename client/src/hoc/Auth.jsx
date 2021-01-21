@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import useStore from '../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import { useParams } from 'react-router-dom';
 

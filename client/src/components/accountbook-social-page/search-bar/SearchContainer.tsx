@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import UserItem from '../user-item/UserItem';
-import socialPage from '../../../constants/socialPage';
-import { RED } from '../../../constants/color';
+import socialPage from '@src/constants/socialPage';
+import { RED } from '@src/constants/color';
 
 const Wrapper = styled.div`
   width: 100%;

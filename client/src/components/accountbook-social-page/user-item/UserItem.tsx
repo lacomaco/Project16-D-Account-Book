@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import AdminSettingButton from '../admin-setting-button/AdminSettingButton';
 import DeleteButton from '../delete-button/DeleteButton';
-import { GRAY, LIGHT_GREEN } from '../../../constants/color';
+import { GRAY, LIGHT_GREEN } from '@src/constants/color';
 import AddButton from '../add-button/AddButton';
-import useGetParam from '../../../hook/use-get-param/useGetParam';
-import useStore from '../../../hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import socialPage from '../../../constants/socialPage';
+import socialPage from '@src/constants/socialPage';
 import KakaoLogo from '../../provider-logo/KakaoLogo';
 import NaverLogo from '../../provider-logo/NaverLogo';
 

@@ -1,4 +1,4 @@
-import { createRenderData } from '../../../hook/use-drop-down';
+import { createRenderData } from '@src/hook/use-drop-down';
 import dummyOptions from '../../../__dummy-data__/components/inputs/dummyOptions';
 
 describe('드랍다운 훅스 테스트', () => {

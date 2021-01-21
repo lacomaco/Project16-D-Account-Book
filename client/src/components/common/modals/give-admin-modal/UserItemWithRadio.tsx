@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProfileImage from '../../profile-image/ProfileImage';
-import { DEEP_GRAY, LIGHT_GREEN } from '../../../../constants/color';
+import { DEEP_GRAY, LIGHT_GREEN } from '@src/constants/color';
 import { observer } from 'mobx-react';
 
 const UserItemWrapper = styled.div<{ type: string | undefined }>`

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LIGHT_BLUE } from '../../../../constants/color';
+import { LIGHT_BLUE } from '@src/constants/color';
 
 interface InputType {
   type: string | number;

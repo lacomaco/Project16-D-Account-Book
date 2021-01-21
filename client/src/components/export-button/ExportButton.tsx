@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BLUE } from '../../constants/color';
+import { BLUE } from '@src/constants/color';
 
 interface ExportButtonProps {
   onClick?: () => void;

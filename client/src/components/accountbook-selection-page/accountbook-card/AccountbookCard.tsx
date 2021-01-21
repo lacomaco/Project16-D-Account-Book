@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import AccountbookSetting from '../accontbook-setting/AccountbookSetting';
 import AccountbookElimination from '../accountbook-elimination/AccountbookElimination';
 import { useHistory } from 'react-router-dom';
-import { getTextColor } from '../../../utils/color';
-import useStore from '../../../hook/use-store/useStore';
+import { getTextColor } from '@src/utils/color';
+import useStore from '@src/hook/use-store/useStore';
 import { Accountbook } from '@src/types/accountbook';
 
 const AccountbookWrapper = styled.div<{

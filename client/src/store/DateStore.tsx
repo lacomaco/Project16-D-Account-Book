@@ -1,5 +1,5 @@
 import { observable, action, makeObservable } from 'mobx';
-import { getFirstDateOfPreviousMonth, getFirstDateOfNextMonth } from '../utils/date';
+import { getFirstDateOfPreviousMonth, getFirstDateOfNextMonth } from '@src/utils/date';
 import RootStore from './RootStore';
 export default class DateStore {
   rootStore;

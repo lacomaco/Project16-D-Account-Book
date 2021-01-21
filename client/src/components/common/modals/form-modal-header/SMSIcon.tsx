@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { GRAY, MINT } from '../../../../constants/color';
-import { SMS_DESCRIPTION } from '../../../../constants/formModal';
+import { GRAY, MINT } from '@src/constants/color';
+import { SMS_DESCRIPTION } from '@src/constants/formModal';
 
 const SMSWrapper = styled.div`
   width: 24px;

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProfileDropdown from '../profile-dropdown/ProfileDropdown';
-import { BLUE } from '../../../constants/color';
+import { BLUE } from '@src/constants/color';
 import { Link } from 'react-router-dom';
-import useGetParam from '../../../hook/use-get-param/useGetParam';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 
 const NavigationWrapper = styled.div`
   display: flex;

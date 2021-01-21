@@ -1,4 +1,4 @@
-import datePeriod from '../constants/datePeriod';
+import datePeriod from '@src/constants/datePeriod';
 /*
 TODO :
 윤년인지 판단해주는 함수

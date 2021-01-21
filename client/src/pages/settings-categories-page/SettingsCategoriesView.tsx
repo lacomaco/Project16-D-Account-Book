@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Category from '../../components/common/category/Category';
 import AddCategoryButton from '../../components/common/add-category-button/AddCategoryButton';
-import useStore from '../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import FormModalCategory from '../../components/common/modals/form-modal-category/FormModalCreateCategory';
 import FormModalUpdateCategory from '../../components/common/modals/form-modal-category/FormModalUpdateCategory';

@@ -1,11 +1,11 @@
 import React from 'react';
 import TransactionInputList from './TransactionInputList';
-import useGetParam from '../../../../hook/use-get-param/useGetParam';
-import useStore from '../../../../hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
+import useStore from '@src/hook/use-store/useStore';
 import ModalBackground from '../modal-background/ModalBackground';
 import FormModalHeader from '../form-modal-header/FormModalHeader';
 import FormModalWrapper from '../form-modal-template/FormModalWrapper';
-import UseTransactionFrom from '../../../../hook/use-transaction-form/useTransactionForm';
+import UseTransactionFrom from '@src/hook/use-transaction-form/useTransactionForm';
 import { observer } from 'mobx-react-lite';
 import { convertToExpenditure, convertToIncome } from '../formUtils';
 

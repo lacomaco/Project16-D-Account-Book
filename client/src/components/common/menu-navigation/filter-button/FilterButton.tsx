@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import MenuBackground from '../menu-background/MenuBackground';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 export const SvgWrapper = styled.svg<{ width: number; height: number }>`
   position: relative;

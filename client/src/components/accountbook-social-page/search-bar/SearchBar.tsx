@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { GRAY } from '../../../constants/color';
+import { GRAY } from '@src/constants/color';
 import SearchIcon from './SearchIcon';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 const SearchBarWrapper = styled.div`
   width: 100%;

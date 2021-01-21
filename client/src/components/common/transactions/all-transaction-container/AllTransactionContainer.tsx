@@ -4,10 +4,10 @@ import Income, { isIncome } from '@src/types/income';
 import Expenditure from '@src/types/expenditure';
 import NotFoundTransaction from '../../not-found-transaction/NotFoundTransaction';
 import Spinner from '../../spinner/Spinner';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import styled from 'styled-components';
-import { RED } from '../../../../constants/color';
+import { RED } from '@src/constants/color';
 interface Props {
   transactions: Array<Income | Expenditure>;
 }

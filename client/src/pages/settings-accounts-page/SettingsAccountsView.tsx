@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Account from '../../components/common/account/Account';
 import AddAccountButton from '../../components/common/add-account-button/AddAccountButton';
-import useStore from '../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 import FormModalAccount from '../../components/common/modals/form-modal-account/FormModalCreateAccount';
 import FormModalUpdateAccount from '../../components/common/modals/form-modal-account/FormModalUpdateAccount';

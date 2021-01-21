@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import useClickOutside from '../../../hook/use-click-outside/useClickOutside';
+import useClickOutside from '@src/hook/use-click-outside/useClickOutside';
 import { render, queryByText, getByText, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import useClickMe from '../../../hook/use-click-me/useClickMe';
+import useClickMe from '@src/hook/use-click-me/useClickMe';
 
 interface PropsCallback {
   callBack: () => void;

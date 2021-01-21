@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LIGHT_GRAY, GRAY, BLUE } from '../../../../constants/color';
+import { LIGHT_GRAY, GRAY, BLUE } from '@src/constants/color';
 import { useHistory } from 'react-router-dom';
-import useGetParam from '../../../../hook/use-get-param/useGetParam';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 
 const SettingsSidebarBodyWrapper = styled.div`
   margin: 0 auto;

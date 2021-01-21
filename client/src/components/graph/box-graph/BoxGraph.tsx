@@ -1,7 +1,7 @@
 import React from 'react';
 import BoxChartValue from '@src/types/boxChartValue';
 import styled, { keyframes } from 'styled-components';
-import { numberWithCommas } from '../../../utils/number';
+import { numberWithCommas } from '@src/utils/number';
 const BoxGraphWrapper = styled.div`
   width: 100%;
   display: flex;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import ModalBackground from '../modal-background/ModalBackground';
-import { MODAL_WHITE } from '../../../../constants/color';
-import useStore from '../../../../hook/use-store/useStore';
+import { MODAL_WHITE } from '@src/constants/color';
+import useStore from '@src/hook/use-store/useStore';
 import FormModalHeader from '../form-modal-header/FormModalHeader';
 import Preview from '../../preview/Preview';
 import InputText from '../../inputs/input-text/InputText';

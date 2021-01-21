@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import FormModalWrapper from '../form-modal-template/FormModalWrapper';
 import FormModalItem from '../form-modal-template/FormModalItemWrapper';
 import FormModalLabel from '../form-modal-template/FormModalLabel';
@@ -8,18 +8,18 @@ import FormModalHeader from '../form-modal-header/FormModalHeader';
 import { observer } from 'mobx-react';
 import CategoryPreview from '../../category-preview/CategoryPreview';
 import InputText from '../../inputs/input-text/InputText';
-import formModal from '../../../../constants/formModal';
+import formModal from '@src/constants/formModal';
 import { Category } from '@src/types/category';
 import { convertToCategory } from '../formUtils';
-import useGetParam from '../../../../hook/use-get-param/useGetParam';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 import CheckSuccess from '../../check/check-success/CheckSuccess';
 import CheckFail from '../../check/check-fail/CheckFail';
 import CheckSuccessText from '../../check/check-text/CheckSuccessText';
 import CheckFailText from '../../check/check-text/CheckFailText';
 import CheckNoActionText from '../../check/check-text/CheckNoActionText';
 import CheckNoAction from '../../check/check-no-action/CheckNoAction';
-import { LIGHT_GREEN, FAIL_RED } from '../../../../constants/color';
-import { nameCheckValidationHeader, nameCheckValidationMessage } from '../../../../utils/form/validation';
+import { LIGHT_GREEN, FAIL_RED } from '@src/constants/color';
+import { nameCheckValidationHeader, nameCheckValidationMessage } from '@src/utils/form/validation';
 
 const FormModalUpdateCategory: React.FC = () => {
   const { rootStore } = useStore();

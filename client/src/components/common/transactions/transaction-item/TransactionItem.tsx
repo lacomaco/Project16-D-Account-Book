@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
 import Category from '../../category/Category';
-import { numberWithCommas } from '../../../../utils/number';
-import { RED, BLUE, LIGHT_GRAY } from '../../../../constants/color';
+import { numberWithCommas } from '@src/utils/number';
+import { RED, BLUE, LIGHT_GRAY } from '@src/constants/color';
 import Income, { isIncome } from '@src/types/income';
 import Expenditure from '@src/types/expenditure';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 const TransactionItemWrapper = styled.div`
   display: flex;

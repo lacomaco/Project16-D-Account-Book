@@ -1,5 +1,5 @@
 import React from 'react';
-import { BLUE } from '../../../constants/color';
+import { BLUE } from '@src/constants/color';
 
 interface Props {
   onClick?: () => void;

@@ -1,6 +1,6 @@
-import datePeriod from '../../constants/datePeriod';
-import PieGraphPageStore from '../../store/PieGraphPageStore';
-import RootStore from '../../store/RootStore';
+import datePeriod from '@src/constants/datePeriod';
+import PieGraphPageStore from '@src/store/PieGraphPageStore';
+import RootStore from '@src/store/RootStore';
 
 describe('PieGraphStore Test', () => {
   let container: PieGraphPageStore;

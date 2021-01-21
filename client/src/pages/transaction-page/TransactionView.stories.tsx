@@ -1,7 +1,7 @@
 import React from 'react';
 import TransactionPage from './TransactionPage';
 import TransactionView from './TransactionView';
-import { RootProvider } from '../../store/RootStore';
+import { RootProvider } from '@src/store/RootStore';
 
 export default {
   title: 'pages/transaction-page/TransactionPage',

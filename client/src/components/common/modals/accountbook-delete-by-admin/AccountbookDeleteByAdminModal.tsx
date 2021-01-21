@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import GrayButton from '../../buttons/GrayButton';
 import RedButton from '../../buttons/RedButton';
 import ModalBackground from '../modal-background/ModalBackground';
-import useStore from '../../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
-import color from '../../../../constants/color';
+import color from '@src/constants/color';
 
 export const ModalContentWrapper = styled.div`
   background-color: ${color.MODAL_WHITE};

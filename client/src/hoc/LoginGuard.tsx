@@ -1,6 +1,6 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import useStore from '../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 const LoginGuardHOC = (HOC: React.ComponentType<any>): React.FC => {
   const LoginGuard = (props: any) => {

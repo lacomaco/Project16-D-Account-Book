@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { GRAY } from '../../../constants/color';
+import { GRAY } from '@src/constants/color';
 import PlusInCircle from '../../common/plus-in-circle/PlusInCircle';
 
 const DivWrapper = styled.div`

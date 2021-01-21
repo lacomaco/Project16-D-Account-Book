@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { numberWithCommas } from '../../../utils/number';
-import { BLUE, RED } from '../../../constants/color';
+import { numberWithCommas } from '@src/utils/number';
+import { BLUE, RED } from '@src/constants/color';
 
 const AmountWrapper = styled.div<{ text: string }>`
   width: 100%;

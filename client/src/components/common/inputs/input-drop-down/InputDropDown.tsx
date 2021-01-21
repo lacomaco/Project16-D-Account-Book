@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Select, { Options } from '../select/Select';
-import { createRenderData } from '../../../../hook/use-drop-down';
-import useClickOutSide from '../../../../hook/use-click-outside/useClickOutside';
+import { createRenderData } from '@src/hook/use-drop-down';
+import useClickOutSide from '@src/hook/use-click-outside/useClickOutside';
 import { observer } from 'mobx-react';
 
 interface InputDropDownProps {

@@ -1,7 +1,7 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import useGetAuthority from '../hook/use-get-authority/useGetAuthority';
+import useGetAuthority from '@src/hook/use-get-authority/useGetAuthority';
 import AccountbookSelectionPage from '../pages/accountbook-selection-page/AccountbookSelectionPage';
 import SettingsAccountbookPage from '../pages/settings-accountbook-page/SettingsAccountbookPage';
 import SettingsAccountsPage from '../pages/settings-accounts-page/SettingsAccountsPage';
@@ -10,8 +10,8 @@ import SettingsCsvPage from '../pages/settings-csv-page/SettingsCsvPage';
 import SettingsSocialPage from '../pages/settings-social-page/SettingsSocialPage';
 import StatisticsPage from '../pages/statistics-page/StatisticsPage';
 import TransactionPage from '../pages/transaction-page/TransactionPage';
-import LoginGuard from '../hoc/LoginGuard';
-import UserAuthorityGuard from '../hoc/UserAuthorityGuard';
+import LoginGuard from '@src/hoc/LoginGuard';
+import UserAuthorityGuard from '@src/hoc/UserAuthorityGuard';
 
 const NeedUserLogin: React.FC = () => {
   useGetAuthority();

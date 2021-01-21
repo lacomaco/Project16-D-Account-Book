@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { SingleCategory } from '@src/types/category';
 import { CategoryWrapper } from './Category';
-import { getTextColor } from '../../../utils/color';
+import { getTextColor } from '@src/utils/color';
 
 const TextSmall = styled.p`
   font-size: 0.9em;

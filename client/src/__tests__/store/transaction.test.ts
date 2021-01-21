@@ -1,4 +1,4 @@
-import RootStore from '../../store/RootStore';
+import RootStore from '@src/store/RootStore';
 import { createIncomeRequestBody } from '../../__dummy-data__/api/transaction/createIncomeExpenditure';
 describe('Transaction Store 테스트', () => {
   let container: RootStore;

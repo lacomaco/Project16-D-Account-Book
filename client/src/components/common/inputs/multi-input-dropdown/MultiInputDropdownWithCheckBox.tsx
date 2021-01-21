@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Options } from '../select/Select';
 import InputDropDown from '../input-drop-down/InputDropDown';
-import useMultiDropDown, { isSelectAll } from '../../../../hook/use-drop-down/useMultiDropDown';
+import useMultiDropDown, { isSelectAll } from '@src/hook/use-drop-down/useMultiDropDown';
 import { joinWithComma } from './MultiInputDropdown';
 interface Props {
   placeholder: string;

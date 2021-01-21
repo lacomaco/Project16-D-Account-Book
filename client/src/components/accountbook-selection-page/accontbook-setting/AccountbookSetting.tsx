@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { getTextColor } from '../../../utils/color';
+import { getTextColor } from '@src/utils/color';
 import { useHistory } from 'react-router-dom';
-import { BLUE } from '../../../constants/color';
+import { BLUE } from '@src/constants/color';
 
 const Wrapper = styled.div<{ itemColor: string; bgColor: string }>`
   width: 1rem;

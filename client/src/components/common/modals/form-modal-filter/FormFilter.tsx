@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import SingleInputDropdown from '../../inputs/single-input-dropdown/SingleInputDropdown';
 import SelectPaymentMethod from '../../inputs/select-payment-method/SelectPaymentMethod';
 import MultiInputDropdownWithCheckBox from '../../inputs/multi-input-dropdown/MultiInputDropdownWithCheckBox';
-import { MODAL_WHITE } from '../../../../constants/color';
-import useStore from '../../../../hook/use-store/useStore';
+import { MODAL_WHITE } from '@src/constants/color';
+import useStore from '@src/hook/use-store/useStore';
 import { observer } from 'mobx-react';
 
 const ItemWrapper = styled.div`

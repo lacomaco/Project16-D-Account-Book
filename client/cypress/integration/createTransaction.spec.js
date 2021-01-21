@@ -1,4 +1,4 @@
-import { visitAccountBook } from '../utils';
+import { visitAccountBook } from '@src/utils';
 import path from 'path';
 const serverPath = path.resolve('./../../../server');
 console.log(__dirname);

@@ -3,8 +3,8 @@ import FilterButton from './filter-button/FilterButton';
 import CreateButton from './create-button/CreateButton';
 import SettingButton from './setting-button/SettingButton';
 import styled from 'styled-components';
-import useStore from '../../../hook/use-store/useStore';
-import useGetParam from '../../../hook/use-get-param/useGetParam';
+import useStore from '@src/hook/use-store/useStore';
+import useGetParam from '@src/hook/use-get-param/useGetParam';
 import { useHistory } from 'react-router-dom';
 
 const NavigationWrapper = styled.div`

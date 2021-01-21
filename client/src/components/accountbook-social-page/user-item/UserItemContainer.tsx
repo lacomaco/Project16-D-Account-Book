@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import UserItem from './UserItem';
 import { observer } from 'mobx-react';
-import useStore from '../../../hook/use-store/useStore';
+import useStore from '@src/hook/use-store/useStore';
 
 const Container = styled.div`
   display: flex;

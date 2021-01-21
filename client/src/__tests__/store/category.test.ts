@@ -1,6 +1,6 @@
 import { waitFor } from '@testing-library/react';
-import CategoryStore from '../../store/CategoryStore';
-import RootStore from '../../store/RootStore';
+import CategoryStore from '@src/store/CategoryStore';
+import RootStore from '@src/store/RootStore';
 import dummyExpenditure from '../../__dummy-data__/api/category/getExpenditure';
 import dummyIncome from '../../__dummy-data__/api/category/getIncome';
 describe('카테고리 스토어 테스트', () => {
