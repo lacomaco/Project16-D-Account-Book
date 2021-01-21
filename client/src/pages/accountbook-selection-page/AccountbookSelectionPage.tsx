@@ -49,6 +49,10 @@ const AccountbookSelectionPage: React.FC = () => {
   } = useStore().rootStore.modalStore;
 
   const updateAccountbooks = () => {
+    {
+      /* 리팩토링 대상  : 불명확한 함수명 , updateAccountbooks라면 Accountbook을 수정하는것이라고 인지할 수 잇음 실제로는 화면에 출력할 Accountbook을 가져오는것임 */
+      /* 리팩토링 대상2 : accountbookStore가  UI 상태, 비즈니스 상태를 모두 가지고 있음*/
+    }
     accountbookStore.updateAccountbooks();
   };
 
