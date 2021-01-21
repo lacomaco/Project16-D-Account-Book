@@ -17,7 +17,11 @@
     "jsx": "react",
     "experimentalDecorators": true,
     "useDefineForClassFields": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"]
+    }
   },
   "include": ["src", "fonts"]
 }
