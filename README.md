@@ -21,7 +21,6 @@
 <br><br><br>
  
 ## 데모 영상 🎥
-링크 : > http://ec2-3-138-111-247.us-east-2.compute.amazonaws.com
 
 <a href="https://www.youtube.com/watch?v=5-2lMAnBslY&feature=youtu.be" target="_blank">
   <img src="https://i.imgur.com/ESwleGX.png" width="600">
