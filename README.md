@@ -99,6 +99,34 @@
   # COOKIE
   COOKIE_EXPIRES_IN=[Cookie 만료시간]
   ```
+  
+  ```
+  SHORT CUT
+  
+  # SERVER/CLIENT HOST&PORT
+  SERVER_HOST=http://localhost
+  SERVER_PORT=5000
+  CLIENT_HOST=http://localhost
+  CLIENT_PORT=3000
+
+  # DB
+  DB_HOST=localhost
+  DB_PORT=3306
+  DB_USERNAME=[MySQL 유저명]
+  DB_PASSWORD=[MySQL 비밀번호]
+  DB_DATABASE=[MYSQL 데이터베이스]
+
+  # OAUTH
+  KAKAO_CLIENT_ID=1bc68697662a26e5371c1d33507638bd
+  KAKAO_CLIENT_SECRET=HDXfGNxRTbLBSuF7f9mvC3Hqtg0yAhV2
+
+  # JWT
+  JWT_SECRET_KEY=boost
+  JWT_EXPIRES_IN=2h
+
+  # COOKIE
+  COOKIE_EXPIRES_IN=7200000
+  ```
 
   > NAVER 혹은 Kakao Application이 존재하지 않을 경우 로그인을 할 수 없습니다.<br>Application을 등록하려면 아래 사이트를 참고바랍니다.<br><br>- [NAVER Developers](https://developers.naver.com/apps/#/list)<br> - [Kakao Developers](https://developers.kakao.com/console/app)
 
@@ -128,6 +156,16 @@
   REACT_APP_KAKAO_CLIENT_ID=[카카오 Application Client ID]
   REACT_APP_KAKAO_CLIENT_SECRET=[카카오 Applicaiotn Client Secret]
   REACT_APP_KAKAO_CALLBACK_URL=[카카오 로그인을 위한 Callback URL]
+  ```
+  ```
+  SHORT CUT
+  # SERVER
+  REACT_APP_BASE_URL=http://localhost:5000
+  # OAUTH
+  REACT_APP_KAKAO_CLIENT_ID=1bc68697662a26e5371c1d33507638bd
+  REACT_APP_KAKAO_CLIENT_SECRET=HDXfGNxRTbLBSuF7f9mvC3Hqtg0yAhV2
+  REACT_APP_KAKAO_CALLBACK_URL=http://localhost:5000/api/oauth/callback/kakao
+
   ```
 
 <br>
