@@ -182,3 +182,10 @@
   ```
   npm run start
   ```
+6.1 원활한 데모를 위해서 SEED 데이터를 넣어주세요
+- [터미널] `server` 디렉토리로 이동 후 아래 명령어 수행
+ ```
+ npm run start
+ npx sequelize-cli db:seed:undo:all
+ npx sequelize-cli db:seed:all
+ ```
